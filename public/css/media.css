@@ -1,0 +1,431 @@
+/*-------------------------------------------------*/
+/*----------------------PHONES--------------------*/
+/*-----------------------------------------------*/
+@media (max-width: 350px) { 
+	.footer__primary .footer-social {
+		display: none;
+	}
+	#create-poll .poll-audience-block .type-container-checkbox .checkmark, #create-poll .poll-audience-block .type-container-checkbox {
+		width: 120px!important;
+	}
+}
+
+@media (max-width: 575px) {
+	.main-screen__primary .form-login .input-regular {
+		min-width: 270px!important;
+		max-width: 270px!important;
+	}
+	.main-screen__primary .form-login .label-regular {
+		padding-left: 0!important;
+	}
+	.main-screen__primary .form-login .sign-in-btn {
+		max-width: 270px!important;
+		min-width: 270px!important;
+	}
+	.main-screen__primary .form-login .or-block hr {
+		width: 100px!important;
+	}
+	.main-screen__primary .form-login h1 {
+		font-size: 24px;
+	}
+	.footer__primary .footer-navigation {
+		margin-top: 50px;
+		margin-right: 20px;
+	}
+	.footer__primary .footer-social {
+		margin-top: 50px;
+	}
+	.footer__primary .footer-social .footer-start-btn {
+		width: 120px;
+	}
+	.footer__primary .footer-social ul li {
+		margin: 0 7px;
+	}
+	.header__primary .logo-block .logo-text {
+		display: none!important;
+	}
+
+	.logo-block {
+		margin-top: 30px!important;
+	}
+	.plan-block {
+		margin-bottom: 20px;
+	}
+	.description-info img {
+		max-width: 300px!important;
+	}
+	.plans__primary .description-info h1 {
+		font-size: 28px;
+		text-align: center!important;
+		margin-top: 20px;
+	}
+	.plans__primary .description-info p {
+		font-size: 16px;
+		text-align: center!important;
+	}
+	.step-block {
+		margin-bottom: 30px;
+	}
+	.right-arrow {
+		display: none;
+	}
+	.circle-pbars {
+		display: none!important;
+	}
+	.main__userpage .poll-progress-bars .progress {
+		display: none!important;
+	}
+	.header__userpage .logo-userpage {
+		margin-left: 0!important;
+	}
+	.main__userpage nav, .account-panel-info {
+		display: none!important;
+	}
+	.header__userpage .username-userpage {
+		margin-right: 20px;
+	}
+	.header__userpage .log-out-btn-block:after {
+		right: 70px;
+	}
+	.header__userpage .log-out-btn {
+		margin-right: 5px;
+	}
+	.main__userpage .poll-progress-bars .poll-progress-bars-description {
+		margin-left: 0!important;
+		font-size: 16px!important;
+	}
+	.header__userpage .mobile-menu {
+		margin-top: 20px;
+	}
+	.header__userpage nav a {
+		margin-bottom: 20px!important;
+	}
+	.header__userpage .username-userpage {
+		color: white!important;
+		margin-right: 0;
+		margin-bottom: 0;
+	}
+	.header__userpage hr {
+		background: white;
+		height: 1px;
+		width: 100px;
+	}
+	.log-out-btn {
+		font-family: SF-Medium;
+		font-size: 15px;
+		color: white;
+		text-decoration: none;
+		margin-bottom: 50px;
+		text-transform: uppercase;
+		margin-right: 0!important;
+	}
+	.main__userpage .poll-circle-pbars .poll-stats hr {
+		width: 220px;
+	}
+	.main__userpage .database-block .database-description {
+		font-size: 16px!important;
+		text-align: center;
+		padding-top: 10px;
+	}
+	.main__userpage .poll-information-block #number-of-questions-poll, .main__userpage .poll-information-block #creation-date-poll, .main__userpage .poll-information-block #creation-time-poll {
+		font-size: 14px;
+		margin-right: 5px!important;
+	}
+	.main__userpage #create-poll h1 {
+		font-size: 32px;
+		margin-bottom: 20px;
+	}
+	.createpage-label {
+		font-size: 16px;
+	}
+	.main__userpage #create-poll .poll-audience-block .select-style {
+		margin-bottom: 20px;
+		font-size: 16px!important;
+	}
+	.main__userpage #create-poll .poll-location-block {
+		padding-left: 0;
+	}
+	.main__userpage #create-poll .poll-audience-block .type-container-checkbox:first-child {
+		margin-bottom: 20px;
+	}
+	.main__userpage #create-poll .poll-submit-block button {
+		width: 300px!important;
+	}
+	.user-control-block {
+		margin-top: 20px;
+	}
+	#poll-results .copy-link-block input {
+		margin-left: 25px;
+	}
+	#poll-results .copy-link-block .copy-btn {
+		right: 30px;
+	}
+	#poll-results #poll-name-of-question-result {
+		text-align: center;
+	}
+	.search-block {
+		display: none!important;
+	}
+	.nav-tabs a {
+		margin-bottom: 20px!important;
+	}
+	#poll-results .copy-link-block input {
+		width: 100%!important;
+		min-width: 120px;
+	}
+	#dashboard .poll-circle-pbars .poll-stats hr {
+		display: none!important;
+	}
+	#copy-url-input {
+		min-width: 130px!important;
+	}
+	#poll-results .poll-progress-bars-description {
+		font-size: 14px;
+	}
+	#poll-results #value-dunno {
+		font-size: 11px;
+	}
+	.information-poll-list {
+		display: flex!important;
+		flex-direction: column!important;
+	}
+	.information-poll-list span {
+		margin-bottom: 5px!important;
+	}
+	.answers-block {
+		margin-top: 30px;
+	}
+	.default-white-block {
+		padding: 30px 10px!important;
+	}
+	#dashboard .poll-progress-bars {
+		padding: 0!important;
+	}
+	#create-poll .poll-location-block .select-style {
+		font-size: 16px!important;
+	}
+	.createpage-label {
+		font-size: 18px!important;
+	}
+	#create-poll .poll-submit-block p {
+		font-size: 24px!important;
+	}
+	#create-poll .poll-audience-block .select-style-min {
+		font-size: 16px!important;
+	}
+	.results-poll-list {
+		display: flex;
+		flex-direction: column;
+	}
+	.results-poll-list span {
+		margin-bottom: 10px!important;
+		margin-right: 0!important;
+		font-size: 14px!important;
+	}
+	#poll-results #poll-name-of-question-result {
+		text-align: center;
+		font-size: 24px!important;
+	}
+	#poll-results .operation-img {
+		margin-bottom: 20px;
+	}
+	#create-poll .poll-audience-block .type-container-checkbox .checkmark {
+		font-size: 16px!important;
+	}
+	
+
+}
+
+/*-------------------------------------------------*/
+/*--------------------TABLETS---------------------*/
+/*-----------------------------------------------*/
+
+@media (min-width: 576px) and (max-width: 768px) {
+	.header__userpage .logo-userpage {
+		margin-left: 0!important;
+	}
+	#poll-results .copy-link-block input {
+		width: 100%!important;
+		min-width: 120px;
+	}
+	.footer__primary .footer-navigation {
+		margin-right: 50px;
+	}
+	.plans__primary .description-info h1 {
+		padding-top: 20px;
+		text-align: center!important;
+	}
+	.plan-block {
+		margin-bottom: 20px;
+	}
+	.main__userpage .database-block .database-description {
+		font-size: 19px;
+	}
+	.main__userpage .poll-information-block .description-text-poll {
+		font-size: 21px;
+	}
+	.main__userpage .poll-progress-bars .poll-progress-bars-description {
+		font-size: 15px;
+	}
+	.main__userpage .poll-progress-bars .progress {
+		margin: 20px;
+	}
+	.poll-stats {
+		margin-top: 20px;
+	}
+	.main__userpage .poll-circle-pbars .circle-pbars .pbar {
+		margin-right: 10px!important;
+	}
+	.main__userpage #create-poll .poll-audience-block .type-container-checkbox .checkmark, .main__userpage #create-poll .poll-audience-block .type-container-checkbox {
+		width: 130px!important;
+	}
+	.main__userpage #create-poll .poll-audience-block .select-style, .main__userpage #create-poll .poll-audience-block .select-style select {
+		width: 280px!important;
+	}
+	.main__userpage #create-poll .poll-audience-block .type-container-checkbox:first-child {
+		margin-right: 10px;
+	}
+	.main__userpage #create-poll .poll-location-block {
+		padding-left: 0;
+	}
+	#dashboard .poll-progress-bars .poll-progress-bars-description {
+		font-size: 16px!important;
+	}
+	#dashboard .poll-circle-pbars .poll-stats hr {
+		display: none!important;
+	}
+	#dashboard .database-block .database-description {
+		margin-bottom: 10px!important;
+		font-size: 19px!important;
+	}
+	#copy-url-input {
+		min-width: 300px!important;
+	}
+	.information-poll-list {
+		display: flex!important;
+		flex-direction: column!important;
+	}
+	.information-poll-list span {
+		margin-bottom: 10px!important;
+	}
+	#create-poll h1 {
+		padding-bottom: 30px!important;
+	}
+	#create-poll .poll-audience-block .createpage-label {
+		padding-top: 20px!important;
+	}
+	.results-poll-list {
+		display: flex;
+		flex-direction: column;
+	}
+	.results-poll-list span {
+		margin-bottom: 10px!important;
+		margin-right: 0!important;
+		font-size: 14px!important;
+	}
+	#poll-results #poll-name-of-question-result {
+		text-align: center;
+	}
+}
+
+/*-------------------------------------------------*/
+/*---------------MEDIUM DEVICES-------------------*/
+/*-----------------------------------------------*/
+
+@media (min-width: 769px) and (max-width:992px){
+	#dashboard .database-block .database-description {
+		margin-bottom: 10px!important;
+		font-size: 19px!important;
+	}
+	#dashboard .poll-progress-bars .poll-progress-bars-description {
+		font-size: 16px!important;
+	}
+	#dashboard .poll-circle-pbars .poll-stats hr {
+		width: 450px!important;
+	}
+	.main__userpage #create-poll .poll-audience-block .type-container-checkbox .checkmark, .main__userpage #create-poll .poll-audience-block .type-container-checkbox {
+		width: 130px!important;
+	}
+	.main__userpage #create-poll .poll-audience-block .select-style, .main__userpage #create-poll .poll-audience-block .select-style select {
+		width: 280px!important;
+	}
+	.main__userpage #create-poll .poll-audience-block .type-container-checkbox:first-child {
+		margin-right: 10px;
+	}
+	.main__userpage .poll-progress-bars .poll-progress-bars-description {
+		font-size: 15px;
+	}
+	.main__userpage .database-block .database-description {
+		font-size: 19px;
+	}
+	.footer__primary .footer-navigation {
+		margin-right: 50px;
+	}
+	.footer__primary .terms-block a {
+		font-size: 10px;
+	}
+	.plans__primary .description-info h1 {
+		padding-top: 20px;
+		text-align: center!important;
+	}
+	.plan-block {
+		margin-bottom: 20px;
+	}
+	#copy-url-input {
+		min-width: 400px!important;
+	}
+	.information-poll-list {
+		display: flex;
+		flex-direction: column;
+	}
+	.information-poll-list span {
+		margin-bottom: 10px!important;
+	}
+	.results-poll-list {
+		display: flex;
+		flex-direction: column;
+	}
+	.results-poll-list span {
+		margin-bottom: 10px!important;
+	}
+
+}
+
+/*-------------------------------------------------*/
+/*----------------LARGE DEVICES-------------------*/
+/*-----------------------------------------------*/
+
+@media (min-width: 992px) and (max-width:1200px) {
+	.header__primary .navigation-desktop ul li {
+		margin-right: 40px;
+	}
+	.header__primary .navigation-desktop ul li a {
+		font-size: 11px;
+	}
+	.footer__primary .footer-navigation {
+		margin-right: 100px;
+	}
+	.footer__primary .terms-block a {
+		font-size: 11px;
+	}
+	.header__primary .logo-block .logo-text {
+		font-size: 15px;
+	}
+	.main__userpage #create-poll .poll-type-block .type-container-checkbox .checkmark, .main__userpage #create-poll .poll-type-block .type-container-checkbox {
+		width: 280px!important;
+	}
+	.main__userpage #create-poll .poll-audience-block .type-container-checkbox .checkmark, .main__userpage #create-poll .poll-audience-block .type-container-checkbox {
+		width: 130px!important;
+	}
+	.main__userpage #create-poll .poll-audience-block .select-style, .main__userpage #create-poll .poll-audience-block .select-style select {
+		width: 280px!important;
+	}
+	.main__userpage #create-poll .poll-audience-block .type-container-checkbox:first-child {
+		margin-right: 10px;
+	}
+	#copy-url-input {
+		min-width: 600px!important;
+	}
+
+
+}

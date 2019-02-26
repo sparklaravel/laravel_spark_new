@@ -1,0 +1,1515 @@
+@font-face
+  font-family: Rounds
+  src: url(../fonts/Rounds.otf)
+
+@font-face
+  font-family: SF-Bold
+  src: url(../fonts/SF-Pro-Display-Bold.otf)
+
+@font-face
+  font-family: SF-Regular
+  src: url(../fonts/SF-Pro-Display-Regular.otf)
+
+@font-face
+  font-family: SF-Light
+  src: url(../fonts/SF-Pro-Display-Light.otf)
+
+@font-face
+  font-family: SF-SemiBold
+  src: url(../fonts/SF-Pro-Display-Semibold.otf)
+
+@font-face
+  font-family: ProximaNova-Bold
+  src: url(../fonts/ProximaNova-Bold.ttf)
+
+@font-face
+  font-family: ProximaNova-Black
+  src: url(../fonts/ProximaNova-Black.ttf)
+
+@font-face
+  font-family: ProximaNova-SemiBold
+  src: url(../fonts/ProximaNova-Semibold.ttf)
+
+@font-face
+  font-family: SF-Medium
+  src: url(../fonts/SF-Pro-Display-Medium.otf)
+
+body
+  margin: 0
+  padding: 0
+
+.body__primary
+  background-color: #fcfcfd
+
+ul
+  list-style: none
+  padding-left: 0
+
+button, input
+  outline: none
+
+.closeBlock
+  position: absolute
+  z-index: 5
+  top: 20px
+  right: 40px
+  width: 20px!important
+  height: 20px!important
+  border: none!important
+  margin-top: 0!important
+
+.takeImg
+  position: absolute
+  z-index: 5
+  right: 80px
+  border: none!important
+  width: 20px!important
+  height: 20px!important
+
+.style-lg-btn
+  width: 200px
+  height: 40px
+  border: 1px solid #1f5dea
+  border-radius: 4px
+  background: inherit
+  font-family: SF-Bold
+  font-size: 12px
+  text-transform: uppercase
+  letter-spacing: 0.5px
+  color: #1f5dea
+  &:hover
+    cursor: pointer
+
+
+.mobile-nav-btn-block
+  button
+    width: 108px
+    height: 41px
+    border-radius: 4px
+    background-color: #0bb07b
+    border: none
+    font-family: SF-Bold
+    font-size: 12px
+    color: white
+    text-transform: uppercase
+    letter-spacing: 1.2px
+    margin-bottom: 10px
+    &:hover
+      cursor: pointer
+
+.overlay
+  height: 100%
+  width: 0
+  position: fixed
+  z-index: 10!important
+  right: 0
+  top: 0
+  background-color: rgb(0,0,0)
+  background-color: rgba(0,0,0, 0.9)
+  overflow-x: hidden
+  transition: 0.5s
+  .closebtn
+    position: absolute
+    top: 10px
+    right: 45px
+    font-size: 32px
+    color: white
+    text-decoration: none
+
+.overlay-content
+  position: relative
+  top: 15%
+  text-align: center
+  margin-top: 30px
+  ul
+    li
+      margin: 20px 0
+      a
+        font-family: SF-Bold
+        font-size: 16px
+        color: white
+        padding: 10px
+        text-transform: uppercase
+        text-decoration: none
+        letter-spacing: 1.2px
+        margin-bottom: 10px
+
+.mobile-menu
+  margin-top: 27.5px
+//Buttons
+.register-btn
+    width: 108px
+    height: 41px
+    border-radius: 4px
+    background-color: #0bb07b
+    border: none
+    font-family: SF-Bold
+    font-size: 12px
+    color: white
+    text-transform: uppercase
+    letter-spacing: 1.2px
+    &:hover
+      cursor: pointer
+
+.login-btn
+  height: 41px
+  border-radius: 4px
+  background-color: inherit
+  border: none
+  font-family: SF-Bold
+  font-size: 12px
+  color: black
+  text-transform: uppercase
+  letter-spacing: 1.2px
+  &:hover
+    cursor: pointer
+
+.header__primary
+  min-width: 100%
+  min-height: 100px
+  height: 100%
+  background-color: white
+  margin-bottom: 25px
+  box-shadow: 0 2px 28px 0 rgba(155, 155, 155, 0.72)
+  //Logo block
+  .logo-block
+    margin-top: 41px
+    .logo-text
+      font-family: Rounds
+      font-size: 16px
+      letter-spacing: 0.2px
+      margin-left: 10px
+      
+  //Navigation block
+  .navigation-desktop
+    ul
+      display: flex
+      margin-top: 40px
+      li
+        margin-right: 50px
+        &:last-child
+          margin-right: 0!important
+        a
+          font-family: SF-Bold
+          font-size: 12px
+          color: #222328
+          text-transform: uppercase
+          text-decoration: none
+          letter-spacing: 1.2px
+  
+  //Auth block
+  .auth-block
+    margin-top: 33px
+    a
+      &:first-child
+        margin-right: 30px
+
+#yearly, #monthly, #weekly
+  margin: 20px
+  width: 100px
+  height: 100px
+
+.header__userpage
+  background-color: white
+  height: 70px
+  box-shadow: 0 4px 24px 0 rgba(37, 38, 94, 0.1)
+  .logo-userpage
+    margin-left: 10px
+    margin-top: 20px
+  .search-block
+    margin-top: 20px
+    img
+      position: absolute
+      padding-top: 5px
+    input
+      border: none
+      padding-left: 30px
+      &::placeholder
+        font-family: SF-Regular
+        font-size: 16px
+        color: #637280
+        letter-spacing: 0.1px
+  .username-userpage
+    font-family: SF-Regular
+    font-size: 15px
+    color: #637280
+    letter-spacing: 0.1px
+    margin-right: 50px
+    
+  .log-out-btn-block
+    &:after
+      content: ''
+      position: absolute
+      width: 1px
+      height: 70px
+      right: 90px
+      top: 0
+      background: #f0f3f4
+  .log-out-btn
+    background: inherit
+    border: none
+    margin-top: 20px
+    margin-right: 15px
+    &:hover
+      cursor: pointer
+
+.main-screen__primary
+  padding: 50px 0 75px 0
+  min-height: 100vh
+  .form-login
+    padding: 40px 100px
+    background-color: white
+    box-shadow: 0 18px 18px 0 rgba(10, 31, 68, 0.32), 0 0 1px 0 rgba(10, 31, 68, 0.1)
+    border: none
+    border-radius: 12px
+    h1
+      font-family: ProximaNova-Bold
+      text-transform: uppercase
+      font-size: 30px
+      color: black
+      line-height: 15px
+      letter-spacing: 2.1px
+      text-align: center
+      margin-bottom: 50px
+    .label-regular
+      font-family: SF-SemiBold
+      font-size: 13px
+      line-height: 33px
+      letter-spacing: 1.5px
+      color: #a8acb9
+      text-transform: uppercase
+      padding-left: 25px
+    .input-regular
+      background-color: #eff0f4
+      border-radius: 6px
+      border: none
+      min-width: 380px
+      width: 100%
+      min-height: 50px
+      height: 100%
+      padding-left: 25px
+      font-family: SF-Regular
+      font-size: 17px
+      color: #4f5362
+      transition: .3s all ease
+      margin-bottom: 20px
+      &:focus
+        background: white
+        box-shadow: 0 11px 22px 0 rgba(168, 172, 185, 0.62)
+    .checkbox-block
+      margin-top: 15px
+      margin-bottom: 30px
+      .text-for-checkbox
+        font-family: SF-Regular
+        font-size: 16px
+        color: #4f5362
+        margin-left: 15px
+        letter-spacing: 1.2px
+      .checkmark
+        &::after
+          content: ''
+          position: absolute
+          display: none
+      .checkbox-container
+        display: block
+        position: relative
+        margin-bottom: 12px;
+        cursor: pointer
+        font-size: 22px
+        -webkit-user-select: none
+        -moz-user-select: none
+        -ms-user-select: none
+        user-select: none
+        padding-right: 25px
+        input
+          position: absolute
+          opacity: 0
+          z-index: 1
+          height: 26px
+          width: 28px
+          &:hover
+            cursor: pointer
+          &:checked ~ .checkmark
+            background-color: #43cb83
+          &:checked ~ .checkmark::after
+            display: block
+        .checkmark
+          position: absolute
+          background-color: #eff0f4
+          height: 25px
+          width: 25px
+          border-radius: 20px
+          &::after
+            left: 9px
+            top: 5px
+            width: 7px
+            height: 12px
+            border: solid white
+            border-width: 0 3px 3px 0
+            -webkit-transform: rotate(45deg)
+            -ms-transform: rotate(45deg)
+            transform: rotate(45deg)
+    .sign-in-btn
+      background-color: #1f5dea
+      font-family: SF-Light
+      font-size: 16px
+      color: #4f5362
+      text-transform: uppercase
+      border-radius: 6px
+      border: none
+      letter-spacing: 1.7px
+      color: white
+      min-width: 380px
+      width: 100%
+      min-height: 50px
+      &:hover
+        cursor: pointer
+    .forgot-btn
+      font-family: SF-SemiBold
+      font-size: 14px
+      margin-top: 25px
+      text-decoration: underline
+      color: #a8acb9
+    .or-block
+      margin-top: 30px
+      hr
+        background: #a8acb9
+        width: 150px
+      span
+        font-family: SF-Regular
+        font-size: 14px
+        color: #a8acb9
+        position: relative
+        top: 5px
+    .login-social
+      margin-top: 15px
+      a
+        &:nth-child(2n)
+          margin: 0 25px
+
+.plans__primary
+  .description-info
+    padding-top: 75px
+    h1
+      font-family: ProximaNova-Black
+      font-size: 38px
+      letter-spacing: 2px
+      line-height: 44px
+      color: #222328
+    p
+      font-family: ProximaNova-SemiBold
+      font-size: 24px
+      letter-spacing: 1.3px
+      color: #222328
+      margin: 20px 0!important;
+    button
+      width: 260px
+      height: 60px
+      background-color: #1f5dea
+      box-shadow: 0 14px 40px 0 rgba(0, 0, 0, 0.35)
+      border: none
+      border-radius: 7px
+      font-family: SF-Regular
+      font-size: 21px
+      text-transform: uppercase
+      color: white
+      letter-spacing: 1.6px
+      outline: none
+      &:hover
+        cursor: pointer
+  .description-steps
+    margin: 100px 0
+    .right-arrow
+      position: relative
+      top: 25px
+    p
+      font-family: SF-Medium
+      font-size: 18px
+      letter-spacing: 0.9px
+      color: #222328
+      text-align: center
+      margin-top: 15px
+  
+  .description-choose-plan
+    margin-bottom: 100px
+    h2
+      font-family: SF-Medium
+      font-size: 42px
+      text-align: center
+      text-transform: capitalize
+      margin-bottom: 50px
+    .most-popular-plan
+      background-color: #1f5dea
+      h3
+        color: rgba(255, 255, 255, 0.5)!important;
+      sup, b, .price-tag
+        color: white!important
+      .first-child
+        border-top: 1px solid rgba(0, 0, 0, 0.1)
+      .plan-price-description-popular
+        font-size: 12px
+        text-transform: uppercase
+        color: white
+        width: 100%
+        margin-bottom: 0
+        padding: 15px 0
+        text-align: center
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+      .plan-trial
+        opacity: 0
+      button
+        position: relative
+        bottom: 10px
+        background: inherit!important
+    .plan-block
+      border-radius: 10px
+      box-shadow: 0 18px 18px 0 rgba(10, 31, 68, 0.17), 0 0 1px 0 rgba(10, 31, 68, 0.1)
+      padding-top: 20px
+      font-family: SF-Medium
+      max-width: 280px
+      width: 100%
+
+      h3
+        font-size: 12px
+        line-height: 28px
+        letter-spacing: 1.2px
+        text-transform: uppercase
+        color: #a8acb9
+        
+      sup
+        font-family: SF-Medium
+        font-size: 26px
+      b
+        font-family: SF-Medium
+        font-weight: 300
+        color: #1f5dea
+        font-size: 48px
+        margin: 0 10px
+      .price-tag
+        font-family: SF-Medium
+        font-size: 26px
+        margin-bottom: 20px
+      .plan-price-description
+        font-size: 12px
+        text-transform: uppercase
+        color: #4f5362
+        width: 100%
+        margin-bottom: 0
+        border-top: 1px solid #eff0f4
+        padding: 15px 0
+        text-align: center
+          
+      .plan-trial
+        font-family: SF-Light
+        font-size: 12px
+        text-transform: uppercase
+        letter-spacing: 1.2px
+        color: #d4d5d7
+        padding: 20px 0
+        width: 100%
+        text-align: center
+        margin-bottom: 0
+        border-top: 1px solid #eff0f4
+      a
+        button
+          background: #4f5362
+          border: none
+          color: white
+          font-family: SF-Light
+          text-transform: uppercase
+          font-size: 12px
+          letter-spacing: 1.5px
+          width: 280px
+          padding: 15px 0
+          border-bottom-left-radius: 10px
+          border-bottom-right-radius: 10px
+          &:hover
+            cursor: pointer
+
+
+//USERPAGE STARTS HERE
+nav
+    background-color: white
+    width: 75px
+    min-height: 100%
+    padding: 100px 0
+    border-right: 1px solid #f0f3f4
+
+.nav-tabs
+  border-bottom: none!important
+  a
+    margin-bottom: 75px!important
+
+.nav-item
+  svg
+    path, g
+      fill: #d1dbe2
+    
+.nav-item.active.show
+  svg
+    path, g
+      fill: #0c66ff
+      border-left: 2px solid #0c66ff
+
+  
+
+ 
+.default-white-block
+  background-color: white!important
+  border-radius: 4px
+  border: 1px solid #f0f3f4
+  padding: 30px 50px
+  margin-bottom: 50px
+
+
+#poll-results
+
+  .operation-img
+      margin-right: 20px!important
+    
+  .operation-name
+    font-family: SF-Bold
+    font-size: 20px
+    letter-spacing: 0.9px
+
+  .default-white-block
+    margin-top: 100px
+
+  .style-lg-btn
+    margin-bottom: 50px
+
+  #number-of-questions-poll, #creation-date-poll, #creation-time-poll, #type-of-poll-result, #audience-range-result
+    font-family: SF-Medium
+    font-size: 16px
+    letter-spacing: 0.8px
+    color: #4a4a4a
+    margin-right: 10px
+
+  .edit-poll-btn
+    background: inherit
+    border: 1px solid #4a4a4a
+    width: 95px
+    height: 40px
+    border-radius: 5px
+    font-family: SF-Bold
+    font-size: 12px
+    text-transform: uppercase
+    letter-spacing: 0.5px
+    margin-right: 20px
+    &:hover
+      cursor: pointer
+
+  .user-control-btn
+    background: none
+    border: none
+    height: 40px
+    &:last-child
+      margin-left: 10px
+    &:hover
+      cursor: pointer
+
+  .copy-link-block
+    padding: 50px 0
+    .heading-block
+      font-family: SF-Medium
+      font-size: 20px
+      letter-spacing: 0.9px
+      padding-bottom: 10px
+    #copy-url-input
+      font-family: SF-Medium
+      font-size: 14px
+      letter-spacing: 0.65px
+      color: #4a4a4a
+      width: 100%
+      height: 40px
+      background-color: white
+      border: 1px solid rgba(151, 151, 151, 0.41)
+      border-radius: 5px
+      padding-left: 20px
+      box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.06)
+    .copy-btn
+      font-family: SF-Bold
+      font-size: 12px
+      letter-spacing: 0.5px
+      color: #2467ed
+      text-transform: uppercase
+      background-color: white
+      border: 1px solid #2467ed
+      min-width: 100px
+      height: 40px
+      border-radius: 5px
+      position: relative
+      right: 50px
+      &:hover
+        cursor: pointer
+
+  .stats-after-result-block
+    padding-bottom: 50px
+    img
+      position: relative
+      bottom: 10px
+    svg, img
+      margin-right: 15px
+    #number-of-answers-poll-result, #number-of-percentage-poll-result, #number-of-views-poll-result
+      font-family: SF-Medium
+      font-size: 28px
+      letter-spacing: 1px
+      color: #4a4a4a
+    span
+      position: relative
+      top: 5px
+      padding-left: 7px
+      font-family: SF-Medium
+      font-size: 21px
+      letter-spacing: 1px
+      color: #4a4a4a
+  #value-positive
+    font-family: SF-Bold
+    font-size: 12px
+    letter-spacing: 0.5px
+    background: #56a2fd
+    border: none
+    color: white
+    margin-top: 12.5px
+    margin-left: 20px
+    max-height: 30px
+    border-radius: 4px
+    &:after
+      content: ''
+      position: absolute
+      width: 6px
+      height: 6px
+      border-top: 3px solid #56a2fd
+      border-left: 3px solid #56a2fd
+      transform: rotate(-40deg)
+      margin-left: -20px
+      bottom: 27.5px
+  #value-negative
+    font-family: SF-Bold
+    font-size: 12px
+    letter-spacing: 0.5px
+    background: #7ed321
+    border: none
+    color: white
+    margin-top: 12.5px
+    margin-left: 20px
+    max-height: 30px
+    border-radius: 4px
+    &:after
+      content: ''
+      position: absolute
+      width: 6px
+      height: 6px
+      border-top: 3px solid #7ed321
+      border-left: 3px solid #7ed321
+      transform: rotate(-40deg)
+      margin-left: -17px
+      bottom: 27.5px
+  #value-dunno
+    font-family: SF-Bold
+    font-size: 12px
+    letter-spacing: 0.5px
+    background: #fdcf2f
+    border: none
+    color: white
+    margin-top: 12.5px
+    margin-left: 20px
+    max-height: 30px
+    border-radius: 4px
+    &:after
+      content: ''
+      position: absolute
+      width: 6px
+      height: 6px
+      border-top: 3px solid #fdcf2f
+      border-left: 3px solid #fdcf2f
+      transform: rotate(-40deg)
+      margin-left: -44px
+      bottom: 27.5px
+  #poll-name-of-question-result
+    font-family: SF-Medium
+    font-size: 28px
+    color: #4a4a4a
+    letter-spacing: 1px
+  .most-popular-answer-img-result
+    margin-top: 20px
+    &:hover
+        .center-text-description
+          opacity: 1
+    
+    .center-text-description
+      opacity: 0
+      position: absolute
+      left: 52.5%
+      transform: translate(-50%, -50%)
+      transition: .3s all ease
+      z-index: 1
+      #number-of-answers-poll-result-block
+        font-family: SF-Bold
+        font-size: 36px
+        letter-spacing: 0.8px
+        color: white
+        padding-top: 125px
+        margin-bottom: 0
+      span
+        font-family: SF-Bold
+        font-size: 20px
+        color: white
+    .most-popular-description
+      margin-top: 20px
+      font-family: SF-Bold
+      font-size: 20px
+      letter-spacing: 0.8px
+    .hoverOnImage
+      width: 240px
+      height: 150px
+      border-radius: 5px
+      &:hover
+        cursor: pointer
+        filter: opacity(0.7)
+  .less-popular-stat-result
+    margin-top: 20px
+    p
+      margin-top: 20px
+      font-family: SF-Bold
+      font-size: 20px
+      letter-spacing: 0.8px
+    img
+      width: 170px
+      height: 100px
+      border-radius: 5px
+      &:hover
+        cursor: pointer
+  .progress
+    margin-top: 20px
+    border-radius: 20px
+    height: 10px
+  .bg-info
+    background-color: #56a2fd!important
+  .bg-success
+    background-color: #7ed321!important
+  .bg-warning
+    background-color: #fdcf2f!important
+  .bg-danger
+    background-color: #fc8650!important
+  .bg-default
+    background-color: #969ba1!important
+  .progress-bars-info
+    border-bottom: 1px solid #f9faff
+    padding: 10px 0
+  .poll-progress-bars-description
+    font-family: SF-Regular
+    font-size: 19px
+    line-height: 33px
+    color: #323c47
+    margin-top: 10px
+
+
+#create-poll
+  h1
+      font-family: SF-Medium
+      font-size: 40px
+      line-height: 59px
+      margin-top: 75px
+
+  .poll-name-block
+    padding-bottom: 50px
+    .createpage-label
+      font-family: SF-Medium
+      font-size: 20px
+      letter-spacing: 0.9px
+      color: #000000
+    input
+      background-color: #ffffff
+      height: 60px
+      border-radius: 5px
+      border: none
+      padding-left: 25px
+      font-family: SF-Bold
+      font-size: 20px
+      letter-spacing: 0.9px
+      transition: .3s all ease
+      box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.06)
+      &:focus
+        box-shadow: 0 11px 22px 0 rgba(168, 172, 185, 0.62)
+
+  .poll-type-block
+    padding-bottom: 50px
+    .createpage-label
+      font-family: SF-Medium
+      font-size: 20px
+      letter-spacing: 0.9px
+      color: #000000
+    .type-container-checkbox
+      display: block
+      position: relative
+      margin-bottom: 12px
+      cursor: pointer
+      font-size: 22px
+      -webkit-user-select: none
+      -moz-user-select: none
+      -ms-user-select: none
+      user-select: none
+      border: 1px solid white
+      width: 100%
+      height: 60px
+      background: white
+      border-radius: 5px
+      z-index: 1
+      &:hover
+        input ~.checkmark 
+      input
+        position: absolute
+        opacity: 0
+        cursor: pointer
+        z-index: 1
+        &:checked ~ .checkmark
+          border: 0.5px solid #0bb07b
+          box-shadow: 0 18px 18px 0 rgba(11, 176, 123, 0.35), 0 0 1px 0 rgba(10, 31, 68, 0.1)
+          opacity: 1
+      .checkmark
+        position: absolute
+        top: 0
+        left: 0
+        height: 60px
+        width: 100%
+        box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.06)
+        background-color: #ffffff
+        border-radius: 5px
+        transition: .3s all ease
+        border: 1px solid rgba(151, 151, 151, 0.41)
+        font-family: SF-Medium
+        font-size: 18px
+        letter-spacing: 0.8px
+        text-align: center
+        padding-top: 15px
+        opacity: 0.5
+        img
+          margin-right: 5px
+          position: relative
+          bottom: 1px
+
+  .poll-text-block
+    padding-bottom: 50px
+    .createpage-label
+      font-family: SF-Medium
+      font-size: 20px
+      letter-spacing: 0.9px
+      color: #000000
+    textarea
+      background-color: #ffffff
+      border-radius: 5px
+      border: none
+      padding-left: 25px
+      font-family: SF-Regular
+      font-size: 20px
+      letter-spacing: 0.9px
+      transition: .3s all ease
+      box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.06)
+      outline: none
+      appearance: none
+      &:focus
+        box-shadow: 0 11px 22px 0 rgba(168, 172, 185, 0.62)
+
+  .poll-answer-choice-block
+    padding-bottom: 50px
+    .createpage-label
+      font-family: SF-Medium
+      font-size: 20px
+      letter-spacing: 0.9px
+      color: #000000
+    button
+      font-family: SF-Bold
+      font-size: 12px
+      color: #1f5dea
+      background: inherit
+      text-transform: uppercase
+      border: 1px solid #1f5dea
+      text-align: center
+      border-radius: 4px
+      width: 200px
+      height: 40px
+      margin-top: 20px
+      &:hover
+        cursor: pointer
+    input[type="file"]
+      display: none
+    .custom-file-upload
+      background: white
+      display: inline-block
+      padding: 6px 12px
+      cursor: pointer
+      border-bottom-left-radius: 4px
+      border-bottom-right-radius: 4px
+      position: relative
+      bottom: 5px
+      border-bottom: 1px solid rgba(151, 151, 151, 0.41)
+      border-left: 1px solid rgba(151, 151, 151, 0.41)
+      border-right: 1px solid rgba(151, 151, 151, 0.41)
+      box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.06)
+      .dashed-border
+        margin-top: 5px
+        border-radius: 5px
+        border: 1.5px dashed #1d6ffc
+        padding: 15px 0
+      span
+        font-family: SF-Medium
+        font-size: 18px
+        letter-spacing: 0.8px
+        padding-bottom: 15px
+      p
+        font-family: SF-Bold
+        font-size: 12px
+        color: #1f5dea
+        text-transform: uppercase
+        border: 1px solid #1f5dea
+        text-align: center
+        padding-top: 10px
+        border-radius: 4px
+        width: 130px
+        height: 40px
+    .default-input
+      background-color: #ffffff
+      height: 60px
+      border-radius: 5px
+      border: 1px solid rgba(151, 151, 151, 0.41)
+      padding-left: 25px
+      font-family: SF-Bold
+      font-size: 20px
+      letter-spacing: 0.9px
+      transition: .3s all ease
+      box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.06)
+      z-index: 1
+      &::placeholder
+        font-family: SF-Regular
+        font-style: italic
+        font-size: 16px
+        color: #848484
+        letter-spacing: 0.9px
+      &:focus
+        box-shadow: 0 11px 22px 0 rgba(168, 172, 185, 0.62)
+
+  .poll-audience-block
+    padding-bottom: 50px
+    .createpage-label
+      font-family: SF-Medium
+      font-size: 20px
+      letter-spacing: 0.9px
+      color: #000000
+    .type-container-checkbox
+      display: block
+      position: relative
+      margin-bottom: 12px
+      cursor: pointer
+      font-size: 22px
+      -webkit-user-select: none
+      -moz-user-select: none
+      -ms-user-select: none
+      user-select: none
+      border: none
+      width: 150px
+      height: 60px
+      background: white
+      border-radius: 5px
+      z-index: 1
+      &:first-child
+        margin-right: 20px
+      &:hover
+        input ~.checkmark 
+      input
+        position: absolute
+        opacity: 0
+        cursor: pointer
+        z-index: 1
+        
+        &:checked ~ .checkmark
+          border: 0.5px solid #0bb07b
+          box-shadow: 0 18px 18px 0 rgba(11, 176, 123, 0.35), 0 0 1px 0 rgba(10, 31, 68, 0.1)
+      .checkmark
+        position: absolute
+        top: 0
+        left: 0
+        height: 60px
+        width: 150px
+        box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.06)
+        background-color: #ffffff
+        border-radius: 5px
+        transition: .3s all ease
+        font-family: SF-Bold
+        font-size: 20px
+        text-align: center
+        padding-top: 15px
+        border: 1px solid rgba(151, 151, 151, 0.41)
+        img
+          margin-right: 10px
+    .select-style-min
+      font-family: SF-Bold
+      font-size: 20px
+      color: black
+      border: 1px solid rgba(151, 151, 151, 0.41)
+      width: 120px
+      height: 60px
+      border-radius: 5px
+      overflow: hidden
+      background: white url("../img/down-arrow.svg") no-repeat 90% 50%
+      box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.06)
+      &:first-child
+        margin-right: 30px
+      select
+        width: 120px
+        height: 60px
+        border: none
+        box-shadow: none
+        background: transparent
+        background-image: none
+        -webkit-appearance: none
+        padding-left: 20px
+        &:focus
+          outline: none
+    .select-style
+      font-family: SF-Bold
+      font-size: 20px
+      color: black
+      border: 1px solid rgba(151, 151, 151, 0.41)
+      width: 100%
+      height: 60px
+      border-radius: 5px
+      overflow: hidden
+      background: white url("../img/down-arrow.svg") no-repeat 90% 50%
+      box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.06)
+      select
+        width: 100%
+        height: 60px
+        border: none
+        box-shadow: none
+        background: transparent
+        background-image: none
+        -webkit-appearance: none
+        padding-left: 20px
+        &:focus
+          outline: none
+
+  .poll-location-block
+    padding-bottom: 50px
+    .createpage-label
+      font-family: SF-Medium
+      font-size: 20px
+      letter-spacing: 0.9px
+      color: #000000
+    .select-style
+      font-family: SF-Bold
+      font-size: 20px
+      color: black
+      border: 1px solid rgba(151, 151, 151, 0.41)
+      width: 100%
+      height: 60px
+      border-radius: 5px
+      overflow: hidden
+      background: white url("../img/down-arrow.svg") no-repeat 90% 50%
+      box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.06)
+      select
+        width: 100%
+        height: 60px
+        border: none
+        box-shadow: none
+        background: transparent
+        background-image: none
+        -webkit-appearance: none
+        padding-left: 20px
+        &:focus
+          outline: none
+
+  .poll-submit-block
+    margin-bottom: 100px
+    button
+      width: 380px
+      height: 60px
+      background: #1f5dea
+      border: none
+      border-radius: 5px
+      font-family: SF-Bold
+      font-size: 16px
+      line-height: 33px
+      letter-spacing: 1.7px
+      text-transform: uppercase
+      color: white
+      &:hover
+        cursor: pointer
+    p
+      margin-bottom: 20px
+      font-family: SF-Medium
+      font-size: 30px
+      letter-spacing: 1.35px
+      #total-cost
+        color: #1f5dea
+        font-weight: 400
+      span
+        color: #1f5dea
+        letter-spacing: 2px
+
+
+#dashboard
+
+  .database-heading
+    font-family: SF-Bold
+    font-size: 16px
+    color: #96a2b4
+    letter-spacing: 0.15px
+    margin-top: 50px
+    margin-bottom: 20px
+
+  .database-block
+    padding-top: 60px
+    padding-bottom: 60px
+    .database-description
+      font-family: SF-Regular
+      font-size: 24px
+      letter-spacing: 0
+      color: #323c47
+      margin-bottom: 25px
+
+  .poll-information-block
+    
+    .operation-img
+      margin-right: 25px!important
+    .operation-name
+      font-family: SF-Bold
+      font-size: 20px
+      letter-spacing: 0.9px
+    #number-of-questions-poll, #creation-date-poll, #creation-time-poll
+      font-family: SF-Medium
+      font-size: 17px
+      letter-spacing: 0.8px
+      color: #4a4a4a
+      margin-right: 10px
+    .view-poll-link
+      font-family: SF-Medium
+      font-size: 17px
+      letter-spacing: 0.8px
+      color: #1f5dea
+      position: relative
+      bottom: 2px
+      text-decoration: none
+    .number-of-answers-img
+      margin-right: 15px
+    .description-text-poll
+      margin-left: 10px!important
+    #number-of-answers-poll, .description-text-poll
+      font-family: SF-Medium
+      font-size: 24px
+      color: #808080
+      margin-bottom: 0
+      line-height: 24px
+    .link-see-all-posts
+      font-family: SF-Medium
+      font-size: 18px
+      color: #1f5dea
+      letter-spacing: 0.8px
+      margin-top: 30px
+      background: none
+      border: none
+      padding: 0
+      &:hover
+        cursor: pointer
+
+  .poll-graphs
+    h3
+      font-family: SF-Regular
+      font-size: 19px
+      color: #323c47
+      margin-bottom: 20px
+      margin-left: 25px
+    #bar-chart
+      .ct-series-a .ct-bar, .ct-series-a .ct-line, .ct-series-a .ct-point, .ct-series-a .ct-slice-donut
+        stroke: #0bb07b!important
+    #bar-chart2
+      .ct-series-a .ct-bar, .ct-series-a .ct-line, .ct-series-a .ct-point, .ct-series-a .ct-slice-donut
+        stroke: #0c66ff!important
+
+  .poll-progress-bars
+    padding: 0
+    #value-x
+      font-family: SF-Bold
+      font-size: 12px
+      letter-spacing: 0.5px
+      background: #56a2fd
+      border: none
+      color: white
+      margin-top: 12.5px
+      margin-left: 20px
+      max-height: 30px
+      border-radius: 4px
+      &:after
+        content: ''
+        position: absolute
+        width: 6px
+        height: 6px
+        border-top: 3px solid #56a2fd
+        border-left: 3px solid #56a2fd
+        transform: rotate(-40deg)
+        margin-left: -42px
+        margin-top: -10px
+    #value-y
+      font-family: SF-Bold
+      font-size: 12px
+      letter-spacing: 0.5px
+      background: #7ed321
+      border: none
+      color: white
+      margin-top: 12.5px
+      margin-left: 20px
+      max-height: 30px
+      border-radius: 4px
+      &:after
+        content: ''
+        position: absolute
+        width: 6px
+        height: 6px
+        border-top: 3px solid #7ed321
+        border-left: 3px solid #7ed321
+        transform: rotate(-40deg)
+        margin-left: -77px
+        margin-top: 7px
+    #value-z
+      font-family: SF-Bold
+      font-size: 12px
+      letter-spacing: 0.5px
+      background: #fdcf2f
+      border: none
+      color: white
+      margin-top: 12.5px
+      margin-left: 20px
+      max-height: 30px
+      border-radius: 4px
+      &:after
+        content: ''
+        position: absolute
+        width: 6px
+        height: 6px
+        border-top: 3px solid #fdcf2f
+        border-left: 3px solid #fdcf2f
+        transform: rotate(-40deg)
+        margin-left: -77px
+        margin-top: 7px
+    #value-j
+      font-family: SF-Bold
+      font-size: 12px
+      letter-spacing: 0.5px
+      background: #fc8650
+      border: none
+      color: white
+      margin-top: 12.5px
+      margin-left: 20px
+      max-height: 30px
+      border-radius: 4px
+      &:after
+        content: ''
+        position: absolute
+        width: 6px
+        height: 6px
+        border-top: 3px solid #fc8650
+        border-left: 3px solid #fc8650
+        transform: rotate(-40deg)
+        margin-left: -77px
+        margin-top: 7px
+    #value-k
+      font-family: SF-Bold
+      font-size: 12px
+      letter-spacing: 0.5px
+      background: #969ba1
+      border: none
+      color: white
+      margin-top: 12.5px
+      margin-left: 20px
+      max-height: 30px
+      border-radius: 4px
+      &:after
+        content: ''
+        position: absolute
+        width: 6px
+        height: 6px
+        border-top: 3px solid #969ba1
+        border-left: 3px solid #969ba1
+        transform: rotate(-40deg)
+        margin-left: -77px
+        margin-top: 7px
+    .progress
+      border-radius: 20px
+      height: 10px
+    .bg-info
+      background-color: #56a2fd!important
+    .bg-success
+      background-color: #7ed321!important
+    .bg-warning
+      background-color: #fdcf2f!important
+    .bg-danger
+      background-color: #fc8650!important
+    .bg-default
+      background-color: #969ba1!important
+    .progress-bars-info
+      border-bottom: 1px solid #f9faff
+      padding: 10px 0
+    .poll-progress-bars-description
+      font-family: SF-Regular
+      font-size: 19px
+      line-height: 33px
+      color: #323c47
+      margin-left: 50px
+      margin-top: 10px
+    .progress
+      margin-top: 20px
+      margin-right: 50px
+     
+  .poll-circle-pbars
+    h3
+      font-family: SF-Bold
+      font-size: 12px
+      letter-spacing: 0.5px
+      color: #323c47
+      text-transform: uppercase
+      padding-left: 15px
+      padding-bottom: 10px
+    .circle-pbars
+      p
+        font-family: SF-Bold
+        font-size: 14px
+        color: #323c47
+      .pbar
+        margin-right: 20px
+    .poll-stats
+      hr
+        background: #dfdfdf
+        height: 1px
+        margin-bottom: 0
+        margin-top: 0
+        margin-left: 10px
+        width: 100%
+        border: none
+      .stats-fullinfo-block
+        padding-top: 10px
+      .stats-amount-value
+        font-family: SF-Bold
+        font-size: 14px
+        color: #323c47
+        line-height: 27px
+      .stats-amount-description
+        font-family: SF-Regular
+        font-size: 14px
+        color: #8a96a0
+        line-height: 25px
+        letter-spacing: 0.1px
+        padding-left: 20px
+      .stats-amount-number
+        font-family: SF-Bold
+        font-size: 14px
+        line-height: 27px
+      .yearly-stats
+        background-color: rgba(126, 211, 33, 0.2)
+        max-width: 60px
+        max-height: 30px
+        padding: 2px 7px
+        border-radius: 10px
+        color: #7ed321
+      .monthly-stats
+        background-color: rgba(132, 177, 243, 0.2)
+        max-width: 60px
+        max-height: 30px
+        padding: 2px 7px
+        border-radius: 10px
+        color: #6ca9f8
+      .weekly-stats
+        background-color: rgba(238, 150, 101, 0.2)
+        max-width: 60px
+        max-height: 30px
+        padding: 2px 7px
+        border-radius: 10px
+        color: #ee9665
+
+
+//FOOTERS FOR MAIN & USER PAGES
+
+.footer__primary
+  background-color: #fcfcfd
+  padding: 50px 0
+  .logo-block
+    margin-bottom: 30px
+    .logo-img
+
+    .logo-text
+      font-family: Rounds
+      font-size: 16px
+      letter-spacing: 0.2px
+      margin-left: 10px
+  .logo-description
+    margin-bottom: 25px
+    p
+      font-family: SF-Medium
+      font-size: 16px
+      line-height: 21px
+      color: #4f5362
+      margin-bottom: 0
+  .terms-block
+    margin-bottom: 25px
+    a
+      font-family: SF-Medium
+      font-size: 12px
+      letter-spacing: 1.1px
+      color: #4f5362
+      text-transform: uppercase
+      text-decoration: none
+      &:first-child
+        margin-right: 20px
+  .copyright-block
+    span
+      font-family: SF-Medium
+      font-size: 14px
+      color: #a8acb9
+  .footer-navigation
+    margin-right: 150px
+    h3
+      font-family: SF-Regular
+      font-size: 14px
+      color: #a8acb9
+      text-transform: uppercase
+      letter-spacing: 1px
+      margin-bottom: 15px
+    ul
+      li
+        margin: 10px 0!important
+        a
+          font-family: SF-Regular
+          font-size: 14px
+          color: #4f5362
+  .footer-social
+    h3
+      font-family: SF-Regular
+      font-size: 14px
+      color: #a8acb9
+      text-transform: uppercase
+      letter-spacing: 1px
+      margin-bottom: 15px
+    ul
+      display: flex
+      li
+        margin: 0 10px
+        &:first-child
+          margin-left: 0!important
+    .footer-start-btn
+      width: 150px
+      height: 41px
+      border-radius: 4px
+      background-color: #0bb07b
+      border: none
+      font-family: SF-Regular
+      font-size: 12px
+      color: white
+      text-transform: capitalize
+      letter-spacing: 1.2px
+      margin-top: 10px
+      &:hover
+        cursor: pointer
+
+.footer__userpage
+  background-color: white!important
+  .footer-start-btn
+    background: #ffad0d!important
